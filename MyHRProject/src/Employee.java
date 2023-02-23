@@ -8,6 +8,14 @@ public class Employee {
     private Date dateOfBirth;
     private Date startOfEmployment;
     private double salary;
+    
+//   ************ setters **************
+
+    void setId(int id) {
+        this.id = id;
+    }
+
+//   ************ getters **************
 
     int getId() {
         return id;
